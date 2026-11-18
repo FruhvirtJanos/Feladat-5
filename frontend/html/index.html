@@ -16,8 +16,30 @@
     </head>
     <body>
         <div class="container-fluid">
+            <div class="row justify-content-center text-center mb-3 mt-3">
+                <div class="col-auto">
+                    <label for="elem-input" class="col-form-label">Adja meg az elem nevét</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="elem-input" class="form-control text-center">
+                </div>
+                <div class="col-auto">
+                    <button type="button" id="elem-btn" class="btn btn-outline-info">Lekérdezés</button>
+                </div>
+            </div>
+            <div class="row text-center" id="keresett-elem-tabla">
+            
+            </div>
             <div class="row text-center">
-                <h1 class="display-1">A szerver fut.</h1>
+                <div>Elemek</div>
+            </div>
+            <div class="row text-center">
+                <select name="" id="elemek-select" class="form-control text-center w-25 mx-auto">
+                    <option value="default">-- Elemek listája --</option>
+                </select>   
+            </div>
+            <div class="row text-center" id="felfedezetlen-elem">
+                
             </div>
         </div>
     </body>
